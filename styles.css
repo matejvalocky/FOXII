@@ -21,7 +21,7 @@ nav{
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    width: 950px;
+    width: 1230px;
     height: 100%;
     margin: 0 auto;
     background-color: black;
@@ -45,4 +45,8 @@ nav ul li{
 
     
 
+}
+
+nav ul li:nth-child(1){
+    padding-left: 150px;
 }
