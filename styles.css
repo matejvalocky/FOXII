@@ -110,6 +110,8 @@ nav ul li{
     line-height: 80px;
     margin-bottom: 30px;
     /* background-color: red; */
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #banner h4{
