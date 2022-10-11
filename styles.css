@@ -23,6 +23,7 @@ transform: scale(0.5);
 position: absolute;
 top: -15px;
 left: -5px;
+
 }
 
 nav{
@@ -87,7 +88,21 @@ nav ul li{
     background-color: white;
     border-radius: 0.5em;
     border: 1px black solid;
-    
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#banner button:hover{
+    width: 200px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    transition: ease 0.5s all;
+    letter-spacing: 4px;
+}
+
+#banner button:not(:hover){
+    transition: ease 0.5s all;
+    font-size: 14px;
 }
 
 #banner h1{
