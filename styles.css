@@ -212,7 +212,7 @@ input{
     /* background-color: red; */
     width: 1235px;
     height: 200px;
-    bottom: 0px;
+    bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -236,18 +236,19 @@ input{
 }
 
 /* .odvetviaImgAndText{
-    background-color: blue;
+   
     
 } */
 
 .odvetviaImgAndText p{
-    color: green;
+    width: 180px;
     text-align: center;
-    position: relative;
-    bottom: 65px;
+    position: absolute;
+    top: 140px;
     /* background-color: yellow; */
     font-size: 12px;
-    color:rgb(107, 107, 107)
+    color:rgb(107, 107, 107);
+    
 }
 
 
