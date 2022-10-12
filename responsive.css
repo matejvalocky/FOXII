@@ -34,15 +34,8 @@
     }
 }
 
-@media screen and (max-width: 1250px){
-    .odvetviaImgAndText{
-        background-color: red;
-        
-        
-
-   
+@media screen and (max-width: 1250px){                      /*priprava na responzivitu sekcie ODVETVIA */
     
-    }
 }
 
 
