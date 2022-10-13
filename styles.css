@@ -185,11 +185,12 @@ input{
 
 
 
-#odvetvia2{
+#odvetvia{
     width: 100%;
     height: 290px;
     /* background-color: red; */
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 100px;
     box-shadow: 1px -1px 7px 2px rgba(0,0,0,0.27);
     -webkit-box-shadow: 1px -1px 7px 2px rgba(0,0,0,0.27);
     -moz-box-shadow: 1px -1px 7px 2px rgba(0,0,0,0.27);
@@ -271,9 +272,9 @@ input{
 
 .popisWrapper p {
     position: absolute;
-    top: 5px;
+    top: -7px;
     color: rgb(107, 107, 107);
-    font-weight: 900;
+    font-weight: 700;
     font-size: 13px;
    
 }
@@ -288,8 +289,50 @@ input{
 
 
 
+/************** URCENIE *********************/
+
+#urcenie{
+    width: 100%;
+    height: 620px;
+    background-color: #969faf;
+    display: flex;
+    flex-direction: row;
+
+    
+}
 
 
+
+#urcenie h5{
+    text-transform: uppercase;
+    font-size: 15px;
+    color:#727272;
+
+}
+
+.urcenieHalf{
+    width: 50%;
+    height: 620px;
+    background-color: aqua;
+}
+
+.urcenieHalf h1{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    background-color: red;
+    color: #272B2B;
+
+}
+
+.urcenieHalf p{
+    color:#727272;
+    width: 500px;
+    text-align: left;
+    background-color: yellow;
+    margin-left: 120px;
+    line-height: 21px;
+}
 
 
 
