@@ -307,6 +307,7 @@ input{
     text-transform: uppercase;
     font-size: 15px;
     color:#727272;
+    
 
 }
 
@@ -323,7 +324,12 @@ input{
     font-size: 50px;
     /* background-color: red; */
     color: #272B2B;
+    margin-left: 10px;
 
+}
+
+.urcenieHalf h5{
+    margin-left: 10px;
 }
 
 .urcenieHalf p{
