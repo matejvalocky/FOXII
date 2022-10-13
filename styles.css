@@ -313,14 +313,14 @@ input{
 .urcenieHalf{
     width: 50%;
     height: 620px;
-    background-color: aqua;
+    background-color: #EEEFF1;
 }
 
 .urcenieHalf h1{
     padding-top: 40px;
     padding-bottom: 50px;
     font-size: 50px;
-    background-color: red;
+    /* background-color: red; */
     color: #272B2B;
 
 }
@@ -329,9 +329,38 @@ input{
     color:#727272;
     width: 500px;
     text-align: left;
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-left: 120px;
     line-height: 21px;
+}
+
+#funkcionalita{
+    width: 178px;
+    height: 47px;
+    border: 1px grey solid;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 120px;
+    margin-top: 50px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    
+}
+
+#funkcionalita a{
+    text-transform: uppercase;
+    padding: 14px 27px;
+    /* background-color: red; */
+    text-decoration: none;
+    color:rgb(66, 66, 66);
+    font-weight: 900;
+
+    
+    
+    
+    
 }
 
 
