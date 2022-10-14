@@ -585,19 +585,79 @@ input{
 }
 
 #bottomCoDokazeLeft img{
-    transform: scale(0.9);
+    transform: scale(0.93);
 }
 
 #bottomCoDokazeRight{
     width: 617.5px;
     height: 790px;
-    background-color: aqua;
-    
 }
 
 #bottomCoDokazeRightWindow{
     width: 617.5px;
     height: 690px;
-    background-color: green;
+    background-color: white;
 }
+
+.coDokazeElement{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 13px;
+    padding-top: 22px;
+    /* border: 1px red solid; */
+    position: relative;
+}
+
+
+
+.coDokazeElement h1{
+    text-transform: uppercase;
+    display: block;
+}
+
+.coDokazeElement p{
+    display: block;
+}
+
+.coDokazeElementImg{
+    width: 110px;
+    height: 100%;
+    position: absolute;
+    /* background-color: green; */
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.coDokazeElementImg img{
+    margin: 15px;
+}
+
+.coDokazeElementTextContent{
+    width: 504px;
+    height: 100%;
+    /* border: 1px yellow solid; */
+    float: right;
+}
+
+.coDokazeElementTextContent h1 {
+    padding-top: 13px;
+    padding-left: 10px;
+} 
+
+.coDokazeElementTextContent p {
+    padding-top: 13px;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-weight: 500;
+    color:rgb(107, 107, 107);
+} 
+
+
+
+.clearFix{
+    clear: both;
+}
+
+
 
