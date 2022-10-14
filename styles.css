@@ -560,3 +560,9 @@ input{
     
 }
 
+#bottomCoDokaze{
+    width: 100%;
+    height: 790px;
+    background-color: green;
+}
+
