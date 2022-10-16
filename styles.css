@@ -674,7 +674,106 @@ input{
     background-size: cover;
     
     
+    
 }
+
+
+
+#wrapperPrezentacia{
+    width: 1235px;
+    height: 627px;
+    margin: 0 auto;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+
+}
+
+#formularPrezentacia{
+    width: 564px;
+    height: 430px;
+    background-color: #EEEFF1;
+    position: absolute;
+    left: 20px;
+    /* background-color: green; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+  
+}
+
+#formularPrezentacia h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+#formularPrezentacia h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 24px;
+    font-size: 17px;
+    
+}
+
+#formularPrezentacia p {
+    color:#272B2B;
+    font-size: 10px;
+    text-align: center;
+    margin: 22px 0;
+    padding-bottom: 10px;
+}
+
+#formularPrezentacia a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    background-color: #EEEFF1;
+    padding: 10px 75px;
+    border-radius: 3px;
+    border: 1px black solid;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+#formularWrapper{
+    width: 450px;
+    height: 112px;
+    /* background-color: green; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#formularWrapper input{
+    width: 182px;
+    height: 38px;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 10px;
+    color:#272B2B;
+    padding: 5px;
+    border: none;
+}
+
+#buttonPrezentacia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
 
 
 
