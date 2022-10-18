@@ -778,74 +778,55 @@ input{
     align-items: flex-start;
 
 }
+
+
+
 /*CENOVE PONUKY ************************/
 
 #cenovePonuky{
     width: 100%;
     height: 1000px;
-    background-color: #EEEFF1;
 }
 
-.cenovePonukyWrapper{
+#ponukyBanner{
     width: 1200px;
-    margin: 0 auto;
-}
-
-#ponuky{
-    width: 100%;
     height: 200px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
     margin-top: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 80px;
-    
+    background-color: #EEEFF1;
 
+
+    
 }
 
-#ponukyImgAndText{
-    width: 100%;
-    height: 100px;
-    /* background-color: red; */
-    background-repeat: no-repeat;
+#nadpis{
+    height: 50%;
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    /* background-color: grey; */
     text-transform: uppercase;
-    
 }
 
-
-
-#ponukyImgAndText img{
-    /* margin-left: 50px; */
-   margin-left: 30px;
-   margin-top: -30px;
+#nadpis h3{
+    margin-left: 20px;
 }
 
-#ponukyImgAndText h2{
-    margin-left: 15px;
-    margin-top: -30px;
-}
-
-
-
-#ponukyParagraph{
-    margin-left: 30px;
+#text{
+    height: 50%;
+    /* background-color: green; */
     display: flex;
     flex-direction: row;
     justify-content: left;
-    align-items: center;
-    line-height: 27px;
-    color: #717171;
-    margin-top: -10px;
-    
+    align-items: flex-end;
+    font-size: 17px;
+    line-height: 25px;
+    color: rgb(56, 56, 56);
 }
+
 
 
 
