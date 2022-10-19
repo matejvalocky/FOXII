@@ -843,24 +843,119 @@ input{
 
 .ponukyScrolledBanner{
     width: 100%;
-    height: 500px;
-    background-color: red;
-    margin-top: 10px;
+    height: 450px;
+    /* background-color: red; */
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 50px;
+    /* border: 1px green solid; */
+}
+
+.ponukyScrolledBanner h4{
+    text-transform: uppercase;
+    padding: 20px 0;
+    color:#717171;
+}
+
+.ponukyScrolledBanner h1{
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.ponukyScrolledBanner p{
+    margin-left: 100px;
+    margin-top: 40px;
+    color:#717171;
+    line-height: 28px;
+    padding-right: 40px;
+    font-size: 17px;
+    
 }
 
 .ponukyHalf{
     width: 50%;
     height: 100%;
+    /* border: 1px green solid; */
 }
 
-.ponukyImg{
+.ponukyHalfImg{
+    width: 50%;
+    height: 100%;
+    /* background-color: #717171; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+
+
+.ponukyButtons{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    /* background-color: red; */
+    
+}
+
+.ponukyButtons a{
+    text-decoration: none;
+    color:#272B2B;
+    text-transform: uppercase;
+    border: 1px black solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+
+
+}
+
+.ponukyButtons a:hover{
+    background-color: #141414;
+    color: white;
+    transition: 0.5s ease all;
+}
+
+.ponukyButtons a:nth-child(1){
+    margin-left: 100px;
+    margin-right: 7px;
+}
+
+.kalendarHeight{
+    height: 320px;
+}
+
+.pravidelneHeight{
+    height: 400px;
+}
+
+.cyklickeHeight{
+    height: 400px;
+}
+
+.mozemHeight{
+    height: 420px;
+}
+
+
+
+
+
+
+
+/* PONUKY TEMPORARY IMAGES */
+/* 
+.ponukyImg1{
     width: 100%;
     height: 100%;
     background-image: url(./cenove-ponuky-obsah/001-mozem.jpg);
-    border: 1px rgb(0, 0, 0) solid;
+    border: 1px rgb(255, 0, 0) solid;
     background-repeat: no-repeat;
     
 }
@@ -869,7 +964,7 @@ input{
     width: 100%;
     height: 100%;
     background-image: url(./cenove-ponuky-obsah/002-cyklicke-objednavky.jpg);
-    border: 1px rgb(0, 0, 0) solid;
+    border: 1px rgb(255, 0, 0) solid;
     background-repeat: no-repeat;
     
 }
@@ -879,7 +974,7 @@ input{
     width: 100%;
     height: 100%;
     background-image: url(./cenove-ponuky-obsah/003-pravidelne-objednavky.jpg);
-    border: 1px rgb(0, 0, 0) solid;
+    border: 1px rgb(255, 0, 0) solid;
     background-repeat: no-repeat;
     
 }
@@ -888,10 +983,10 @@ input{
     width: 100%;
     height: 100%;
     background-image: url(./cenove-ponuky-obsah/004-kalendare.jpg);
-    border: 1px rgb(0, 0, 0) solid;
+    border: 1px rgb(255, 0, 0) solid;
     background-repeat: no-repeat;
     
-}
+} */
 
 
 
