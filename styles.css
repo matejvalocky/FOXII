@@ -850,6 +850,7 @@ input{
     flex-direction: row;
     justify-content: center;
     margin-bottom: 50px;
+    background-color: #EEEFF1;
     /* border: 1px green solid; */
 }
 
