@@ -1107,7 +1107,42 @@ input{
     width: 25%;
     height: 100%;
     border: 1px red solid;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.kontaktyColumn h1{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.kontaktyColumn input{
+    width: 100%;
+    height: 20px;
+    background-color: #272B2B;
+    border: none;
+    border-bottom: 1px white solid;
+    padding: 15px 0;
+}
+
+.kontaktyColumn input::placeholder{
+    color: white;
+}
+
+.kontaktyColumn p {
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.kontaktyColumnCell{
+    width: 100%;
+    height: 300px;
+    border: 1px white dotted;
+}
+
+
 
 
 
