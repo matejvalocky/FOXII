@@ -993,5 +993,44 @@ input{
 } */
 
 
+#odber{
+    height: 210px;
+    background-color: red;
+}
+
+#odberWrapper{
+    width: 1235px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#odberLeftSide{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+#odberRightSide{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
 
 
