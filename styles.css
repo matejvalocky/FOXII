@@ -995,7 +995,7 @@ input{
 
 #odber{
     height: 210px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 #odberWrapper{
@@ -1013,22 +1013,73 @@ input{
 #odberLeftSide{
     width: 50%;
     height: 100%;
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
+    line-height: 50px;
 }
+
+#odberLeftSide h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    
+}
+
+#odberLeftSide p{
+    color:#272B2B;
+}
+
+
+
 
 #odberRightSide{
     width: 50%;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    line-height: 40px;
+}
+
+#odberRightSide input{
+    width: 435px;
+    height: 50px;
+    border: 1px black dashed;
+}
+
+#odberRightSide input::placeholder{
+    padding-left: 20px;
+}
+
+#odberRightSide a {
+    background-color: #141414;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin-left: px;
+
+}
+
+#odberRightSide p {
+    color:#272B2B;
+}
+
+#odberRightSide p span{
+    color: black;
+    
+}
+
+#inputAndSign{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
