@@ -1106,7 +1106,7 @@ input{
 .kontaktyColumn{
     width: 25%;
     height: 100%;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     padding: 0 5px;
     display: flex;
     flex-direction: column;
@@ -1137,10 +1137,12 @@ input{
 }
 
 .kontaktyColumnCell{
-    width: 100%;
+    width: 90%;
     height: 300px;
-    border: 1px white dotted;
+    /* border: 1px white dotted; */
     position: relative;
+    
+
 
 
     
@@ -1151,9 +1153,11 @@ input{
     border-top: none;
 }
 
+
+
 .kontaktyColumnCell h1{
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -1176,6 +1180,9 @@ input{
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap: wrap;
+    /* border: 1px green solid; */
+    
 }
 
 .kontaktyColumnCell li a{
@@ -1185,16 +1192,60 @@ input{
 }
 
 .kontaktyColumnCell li p{
-    display: inline-block;
-    padding-left: 15px;
+    display: block;
+    padding-left: 20px;
     font-size: 16px;
-    margin-top: -10px;
+    margin-top: -15px;
+
+    
 }
+
+.kontaktyColumnCell img{
+    margin-left: 25px;
+    transform: scale(0.9);
+    margin-top: -30px;
+    
+
+}
+
+
+
+#kontaktyColumnCell2ndImg{
+    margin-left: 5px;
+}
+
+
+
 
 .glyphicon{
 
     transform: scale(1.2);
 }
+
+.udaje{
+    line-height: 6px;
+    width: 220px;
+    
+    
+   
+}
+
+.udajeP{
+    margin-left: 13px;
+}
+
+.smePlatci{
+    margin-left: -20px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1226,29 +1277,20 @@ input{
     color: rgb(124, 124, 124);
     border-radius: 50%;
     border: 1px rgb(124, 124, 124) solid;   
-    padding: 5px 16px;
+    padding: 5px 17px;
     font-weight: bold;
     
 }
 
+#aFirstColumn:hover{
+    color: white;
+    transition: all ease 0.5s;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#aFirstColumn:not(hover){
+    color: rgb(124, 124, 124);
+    transition: all ease 0.2s;
+}
 
 
 
@@ -1259,7 +1301,67 @@ footer{
     width: 100%;
     height: 90px;
     background-color: black;
+    
 }
+
+#footerWrapper{
+    width: 1235px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerWrapper{
+    font-size: 15px;
+    color:rgb(65, 65, 65);
+}
+
+#footerWrapper a{
+    font-size: 15px;
+    color:rgb(65, 65, 65);
+    text-decoration: none;
+}
+
+#footerWrapper a:hover{
+    color:rgb(124, 124, 124);
+    transition: all ease 0.5s;
+}
+
+#footerWrapper a:not(hover){
+    transition: all ease 0.5s;
+    color:rgb(65, 65, 65);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
