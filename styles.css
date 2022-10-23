@@ -1089,6 +1089,7 @@ input{
     height: 500px;
     background-image: url(./img-kontakty/kontakty–black.jpg);
     color: white;
+    line-height: 20px;
     
 
 
@@ -1195,7 +1196,7 @@ input{
     display: block;
     padding-left: 20px;
     font-size: 16px;
-    margin-top: -15px;
+    
 
     
 }
@@ -1223,16 +1224,14 @@ input{
 }
 
 .udaje{
-    line-height: 6px;
+    line-height: 17px;
     width: 220px;
     
     
    
 }
 
-.udajeP{
-    margin-left: 13px;
-}
+
 
 .smePlatci{
     margin-left: -20px;
@@ -1258,7 +1257,7 @@ input{
     color: rgb(124, 124, 124);
     border-radius: 50%;
     border: 1px rgb(124, 124, 124) solid;   
-    padding: 5px 17px;
+    padding: 9px 17px;
     font-weight: bold;
     
 }
