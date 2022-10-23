@@ -785,7 +785,6 @@ input{
 
 #cenovePonuky{
     width: 100%;
-    /* height: 1000px; */
 }
 
 #ponukyBanner{
@@ -1334,7 +1333,7 @@ footer{
 #parent div:first-child {
     display:block;
 }
-div{background:red}
+
 
 #parent > div{
     width:400px;
