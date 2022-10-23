@@ -1224,8 +1224,8 @@ input{
 }
 
 .udaje{
-    line-height: 17px;
-    width: 220px;
+    line-height: 5px;
+    
     
     
    
@@ -1257,7 +1257,7 @@ input{
     color: rgb(124, 124, 124);
     border-radius: 50%;
     border: 1px rgb(124, 124, 124) solid;   
-    padding: 9px 17px;
+    padding: 7px 14px;
     font-weight: bold;
     
 }
