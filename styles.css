@@ -1322,23 +1322,27 @@ footer{
 
 
 
-/* AUTOMATIC SCROLLED DIVS */
+/*AUTOMATIC SCOROLLED DIVS */
 
-#parent div {
-    display:none;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-#parent div:first-child {
-    display:block;
-}
+.gallery{
+    position: relative;
+    overflow: hidden;
+  }
+  .gallery .movable{
+    display: flex;
+    height: 70vh;
+    transition: transform 0.4s;
+  }
+  .gallery .movable > div {
+    flex:1;
+    min-width: 100%;
+    
+  }
 
-
-#parent > div{
-    width:1235px;
-    height:400px;
-}
+  #movedDivWrapper{
+    width: 1235px;
+    margin: 0 auto;
+  }
 
 
 
