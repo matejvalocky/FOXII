@@ -1331,7 +1331,7 @@ footer{
   .gallery .movable{
     display: flex;
     height: 70vh;
-    transition: transform 0.4s;
+    transition: transform 1.2s;
   }
   .gallery .movable > div {
     flex:1;
@@ -1340,7 +1340,8 @@ footer{
   }
 
   #movedDivWrapper{
-    width: 1235px;
+    width: 1200px;
+    height: 500px;
     margin: 0 auto;
   }
 
