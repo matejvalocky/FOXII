@@ -60,6 +60,16 @@ nav ul li:first-child{
     color: red;
 }
 
+nav ul li:hover{
+    color: red;
+    transition: 0.5s ease;
+}
+
+nav ul li:not(:hover){
+    color: white;
+    transition: 0.3s ease;
+}
+
 
 
 
