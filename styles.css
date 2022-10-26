@@ -1346,7 +1346,7 @@ footer{
   }
   .gallery .movable{
     display: flex;
-    height: 70vh;
+    height: 470px;
     transition: transform 1.2s;
   }
   .gallery .movable > div {
