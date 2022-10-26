@@ -51,6 +51,7 @@ nav ul li{
     font-size: 14px;
     font-weight: 600;
     color: white;
+    cursor: pointer;
 
     
 
@@ -70,7 +71,9 @@ nav ul li:not(:hover){
     transition: 0.3s ease;
 }
 
-
+nav ul li:first-child{
+    color: red;
+}
 
 
 
