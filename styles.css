@@ -56,6 +56,10 @@ nav ul li{
 
 }
 
+nav ul li:first-child{
+    color: red;
+}
+
 
 
 
