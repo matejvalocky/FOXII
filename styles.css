@@ -380,6 +380,13 @@ input{
     
 }
 
+#funkcionalita:hover{
+    background-color: black;
+    
+}
+
+
+
 #funkcionalita a{
     text-transform: uppercase;
     padding: 14px 27px;
@@ -388,6 +395,17 @@ input{
     color:rgb(66, 66, 66);
     font-weight: 900; 
 }
+
+#funkcionalita a:hover{
+    color: white;
+    transition: 1s all ease;
+}
+
+#funkcionalita a:hover{
+    color: white;
+}
+
+
 
 .urcenieHalf2{
     display: flex;
