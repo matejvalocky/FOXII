@@ -151,6 +151,37 @@ nav ul li:first-child{
 }
 
 
+/**********infoBanner*/
+
+#infoBanner{
+    width: 100%;
+    height: 390px;
+    background-image: url(./img-banner/bc-black.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#infoBanner h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
+#infoBanner h3{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+#infoBanner h3 span{
+    color: red;
+}
+
 /********* search bar in navigation */
 
 
