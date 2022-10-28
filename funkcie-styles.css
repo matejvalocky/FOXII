@@ -1,0 +1,52 @@
+.ponukyScrolledBanner{
+    width: 100%;
+    height: 450px;
+    /* background-color: red; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: #EEEFF1;
+    /* border: 1px green solid; */
+}
+
+.ponukyScrolledBanner h4{
+    text-transform: uppercase;
+    padding: 20px 0;
+    color:#717171;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.ponukyScrolledBanner h1{
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.ponukyScrolledBanner p{
+    margin-left: 100px;
+    margin-top: 40px;
+    color:#717171;
+    line-height: 28px;
+    padding-right: 160px;
+    font-size: 17px;
+    
+}
+
+.ponukyHalf{
+    width: 50%;
+    height: 100%;
+    /* border: 1px green solid; */
+}
+
+.ponukyHalfImg{
+    width: 55%;
+    height: 100%;
+    /* background-color: #717171; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
