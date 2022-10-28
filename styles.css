@@ -162,12 +162,15 @@ nav ul li:first-child{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 #infoBanner h1{
     color: white;
     text-transform: uppercase;
     font-size: 40px;
+    position: relative;
+    top: 10px;
 }
 
 
@@ -176,6 +179,8 @@ nav ul li:first-child{
     color: white;
     margin-top: 20px;
     font-weight: 400;
+    position: relative;
+    top: 10px;
 }
 
 #infoBanner h3 span{
