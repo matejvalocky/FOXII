@@ -1521,6 +1521,32 @@ footer{
   }
 
 
+  /************* sekcia NAVODY V NAVODY.HTML **************************/
+
+  #navodyWrapper{
+    width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .navodyLeftSide{
+    width: 790px;
+    height: 500px;
+    background-color: green;
+  }
+
+  .navodyRightSide{
+        width: 410px;
+        height: 500px;
+        background-color: blue;
+  }
+
+
 
 
 
