@@ -860,6 +860,75 @@ input{
 
 }
 
+/*CHCETE PREZENTACIU APLIKACIA.HTML*/
+
+#chcetePrezentaciuApp{
+    width: 100%;
+    height: 470px;
+    background-image: url(./img-app/app-chcete-prez-bright.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.chcetePrezentaciuAppWrapper{
+    width: 1235px;
+    height: 100%;
+    margin: 0 auto;
+    
+    
+}
+
+.chcetePrezentaciuAppWrapper h1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 75px;
+    
+}
+
+.chcetePrezentaciuAppWrapper h3{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.formularPrezentaciaApp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularPrezentaciaApp input{
+    width: 260px;
+    margin: 10px 20px;
+    padding: 10px 5px;
+}
+
+.formularTextAndButtom{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.formularTextAndButtom p{
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.formularTextAndButtom a{
+    margin-right: 37px;
+    padding: 15px 92px;
+    background-color: #EEEFF1;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
 
 
 /*CENOVE PONUKY ************************/
