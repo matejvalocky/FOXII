@@ -934,6 +934,17 @@ input{
     /* border: 1px green solid; */
 }
 
+.ponukyScrolledBannerLessHeight{
+    height: 385px;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
 .ponukyScrolledBanner h4{
     text-transform: uppercase;
     padding: 20px 0;
@@ -962,6 +973,12 @@ input{
     width: 50%;
     height: 100%;
     /* border: 1px green solid; */
+}
+
+.ponukyAllScreen{
+    width: 100%;
+    
+    
 }
 
 .ponukyHalfImg{
