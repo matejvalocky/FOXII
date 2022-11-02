@@ -1526,25 +1526,84 @@ footer{
   #navodyWrapper{
     width: 1200px;
     margin: 0 auto;
-    height: 500px;
-    background-color: red;
+    height: 885px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 100px;
     
   }
 
   .navodyLeftSide{
     width: 790px;
     height: 500px;
-    background-color: green;
+    /* background-color: green; */
+    
   }
+
+  .navodyContent{
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  .navodyContent a{
+    text-decoration: none;
+  }
+
+
+
+  .navodyContent h2{
+    padding: 25px 0;
+    color: black;
+  }
+
+  .navodyContent p{
+    color: #727272;
+  }
+
+  .navodyContent button{
+    margin-top: 25px;
+    padding: 14px 35px;
+  }
+
+  .navodyContent button a{
+    color: black;
+    background-color: #EEEFF1;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+
+
+
 
   .navodyRightSide{
         width: 410px;
         height: 500px;
         background-color: blue;
   }
+
+  .navodyBannerLeft{
+    width: 790px;
+    height: 760px;
+    background-color: white;
+    -webkit-box-shadow: -3px -3px 15px -3px rgba(0,0,0,0.26); 
+    box-shadow: -3px -3px 15px -3px rgba(0,0,0,0.26);
+    margin-bottom: 30px;
+  }
+
+  .navodyBannerLeftImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 35px;
+  }
+
+
+
+  /* OBECNE */
+
+
 
 
 
