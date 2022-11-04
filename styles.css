@@ -1579,9 +1579,38 @@ footer{
 
   .navodyRightSide{
         width: 410px;
-        height: 500px;
-        background-color: blue;
+        padding-left: 50px;
+        /* background-color: blue; */
   }
+
+  .navodyRightSide a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 0;
+    border-bottom: 1px rgb(219, 219, 219) solid;
+    color: black;
+  }
+
+  .navodyRightSide h2{
+    padding-top: 50px;
+  }
+
+
+
+  
+
+.clanky{
+    width: 100%;
+    height: 150px;
+    background-color: red;
+    margin-top: 10px;
+}
+
+
+
+   
+
+   
 
   .navodyBannerLeft{
     width: 790px;
