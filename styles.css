@@ -1680,6 +1680,38 @@ footer{
 }
 
 
+/* CENNIK */
+
+.wrapperCennik{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.wrapperCennik h1{
+    font-size: 30px;
+}
+
+
+.wrapperCennik table{
+    width: 100%;
+}
+
+.wrapperCennik table tr{
+    display: block;
+    padding: 12px 0;
+}
+
+.wrapperCennik table tr td:nth-child(2){
+   color: red;
+}
+
+.grey{
+    background-color: rgb(230, 230, 230);
+}
+
+
 
 
 
