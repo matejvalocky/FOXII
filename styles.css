@@ -1691,6 +1691,7 @@ footer{
 
 .wrapperCennik h1{
     font-size: 30px;
+    padding-bottom: 20px;
 }
 
 
@@ -1703,9 +1704,6 @@ footer{
     padding: 12px 0;
 }
 
-.wrapperCennik table tr td:nth-child(2){
-   color: red;
-}
 
 .grey{
     background-color: rgb(230, 230, 230);
