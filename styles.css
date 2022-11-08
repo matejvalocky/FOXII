@@ -1695,7 +1695,14 @@ footer{
 
 #cennik p{
     margin-top: 20px;
+}
+
+#cennik p:nth-child(11){
     margin-bottom: 60px;
+}
+
+#cennik p:nth-child(10){
+    padding-top: 40px;
 }
 
 #cennik table {
@@ -1715,6 +1722,21 @@ footer{
 .grey{
     background-color: rgb(228, 228, 228);
 }
+
+
+#wrapperPrezentaciaCennik{
+    width: 1050px;
+    height: 627px;
+    margin: 0 auto;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+
+}
+
 
 
 
