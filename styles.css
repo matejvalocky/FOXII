@@ -1874,6 +1874,13 @@ footer{
     padding-top: 15px;
 }
 
+/* SEKCIA MAPA */
+
+#map{
+    width: 100%;
+    height: 500px;
+}
+
 
     
 
