@@ -1738,8 +1738,75 @@ footer{
 }
 
 
+/******** KONTAKT ****************/
 
+#kontakt{
+    padding-top: 80px;
+    width: 1250px;
+    height: 685px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.kontaktPart{
+    padding-left: 20px;
+    width: 312.5px;
+    height: 100%;
+    /* background-color: green; */
+    border: 1px black solid;
+    line-height: 30px;
+}
+
+.kontaktPart p {
+    margin-top: 20px;
+    color:rgb(48, 48, 48);
+}
+
+.kontaktPart a{
+    text-decoration: none;
+    color:rgb(48, 48, 48);
+}
+
+.kontaktPart img{
+    width: 25px;
+}
+
+.kontaktRightHalf{
+    width: 625px;
+    height: 100%;
+    background-color: red;
+    border: 1px black solid;
+}
+
+.kontaktPart h3{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.icons{
+    margin-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.icons img {
+    margin: 0 10px;
+}
+
+#facebook{
+    border: 1px black solid;
+    border-radius: 50%;
+    padding: 5px 13px;
+    font-size: 18px;
+   
+}
+    
 
 
 
