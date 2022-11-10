@@ -1851,7 +1851,7 @@ footer{
 .formUdaje input{
     padding: 17px 10px;
     width: 280px;
-    border: 1px black dotted;
+    border: 1px black dashed ;
     margin: 13px;
 }
 
@@ -1865,7 +1865,7 @@ footer{
     width: 585px;
     height: 120px;
     margin-top: 15px;
-    border: 1px black dotted;
+    border: 1px black dashed ;
 }
 
 .formText input::placeholder{
