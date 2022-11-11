@@ -90,7 +90,7 @@ nav ul li:first-child{
 
 #banner{
     width: 100%;
-    height: 1087px;
+    height: 100vh;
     background-image: url(./img/background-dark.png);
     background-repeat: no-repeat;
     background-size: cover;
