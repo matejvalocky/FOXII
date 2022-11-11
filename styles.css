@@ -236,7 +236,7 @@ input{
 }
 
 .wrapper{
-    position: relative;
+    
     width: 1235px;
     background-color: #EEEFF1;
     margin: 0 auto;
@@ -246,9 +246,11 @@ input{
 
 
 #odvetvia{
-    width: 100%;
+    
+    max-width: 1230px;
     height: 290px;
-    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 80px;
     margin-bottom: 100px;
     box-shadow: 1px -1px 7px 2px rgba(0,0,0,0.27);
@@ -280,7 +282,6 @@ input{
 #obrazkyOdvetvia{
     width: 100%;
     height: 145px;
-    /* background-color: blue; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -289,14 +290,14 @@ input{
 }
 
 .imgAndContent{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
+    border: 1px red solid;
+    
 }
 
 .imgAndContent img{
     transform: scale(0.25);
+   
 }
 
 .imgAndContent p{
