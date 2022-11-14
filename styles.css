@@ -364,11 +364,13 @@ input{
 /************** URCENIE *********************/
 
 #urcenie{
-    width: 100%;
+    margin: 0 auto;
+    width: 1250px;
     height: 620px;
     /* background-color: #969faf; */
     display: flex;
-    flex-direction: row;
+    
+    
 
     
 }
