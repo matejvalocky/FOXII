@@ -299,6 +299,13 @@
         position: relative;
     }
 
+    #slideshow{
+        width: 98%;
+        margin: 0 auto;
+        margin-top: -100px;
+        margin-bottom: 70px;
+    }
+
 
 
 
@@ -355,6 +362,13 @@
 
     .marginSection{
         margin: 0 5px;
+    }
+
+    #slideshow{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
    
