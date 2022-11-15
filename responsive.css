@@ -56,7 +56,6 @@
         width: 100%;
         height: 620px;
         background-color: #EEEFF1;
-        
         text-align: center;
         
         /* border: 1px red solid; */
@@ -140,6 +139,13 @@
         margin-bottom: 0;
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    #slideshow{
+        width: 770px;
+        margin: 0 auto;
+        margin-top: -10px;
+        margin-bottom: 70px;
     }
 
       
