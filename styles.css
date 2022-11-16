@@ -764,10 +764,7 @@ input{
     border-bottom: 17px #770006 solid;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
-    
-    
+    background-size: cover;  
 }
 
 
@@ -794,6 +791,7 @@ input{
     /* background-color: green; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+ 
 
   
 }

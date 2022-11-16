@@ -71,6 +71,24 @@
         margin-top: 20px;
     }
 
+    #formularPrezentacia{
+        width: 564px;
+        height: 430px;
+        background-color: #EEEFF1;
+        position: absolute;
+        left: 20px;
+        margin-top: 90px;
+        /* background-color: green; */
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    
+      
+    }
+
+
+
+
+
 }
 
 @media screen and (max-width: 1240px){                      
@@ -425,6 +443,26 @@
     }
 
    
+}
+
+@media  screen and (max-width: 680px) {
+    #bottomCoDokazeLeft img{
+        transform: scale(1.00);
+        width: 95%;
+        margin-top: 20px;
+    }
+
+    #coFoxiiDokaze{
+       
+        height: 1520px;
+       
+    
+    }
+
+
+
+
+    
 }
 
 
